@@ -12,10 +12,10 @@ keypoints:
 Function arelines of codes which are executed in a sequential order in order to perform a certain task. In other words, it is a set of statements which are executed together to accomplish a certain task.  R  like  any  programming  language,  has  many  built  in  functions  (also  called  pre-defined functions) but also allows users to create their own functions which are known as user defined functions.
 ### BUILT IN FUNCTIONS
 These are functions which are built inside R which are readily available for all users with access to R.
-E.g.:  
-seq()-Print a sequence of numbers
-mean()-Find the mean value of a set of numbers
-sum()-Find the sum of a set of numbers
+E.g.:    
+seq()-Print a sequence of numbers  
+mean()-Find the mean value of a set of numbers  
+sum()-Find the sum of a set of numbers  
 
 ~~~
 seq(25,35)
