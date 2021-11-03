@@ -1,11 +1,9 @@
 ---
-title: "Introduction"
-teaching: 0
-exercises: 0
-questions:
-- "Key question (FIXME)"
+title: "Review"
+time: 0
+
 objectives:
-- "First learning objective. (FIXME)"
+- "review basic R concepts before starting new material"
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
