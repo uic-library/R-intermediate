@@ -31,7 +31,22 @@ results in:
 You can refer Link1[FIXME link] & Link2 [FIXME link] for some of the most frequently used bult in R functions.
 
 ### USER DEFINED FUNCTION
-These are  functions  which  are  manually  defined  by  user  and  are  not  available  in  R  by  default. Users can create a function based on their own requirements. These functions are useful when a block of code is required to be performed repetitively.Syntaxfunction_name<-function(argument1,argument2, .............){Body of the function (or) statementsreturn()}Calling the functionfunction_name()
+These are  functions  which  are  manually  defined  by  user  and  are  not  available  in  R  by  default. Users can create a function based on their own requirements. These functions are useful when a block of code is required to be performed repetitively.  
+Syntax: 
+~~~
+function_name <- function(argument1,argument2, .............)
+  {
+  Body of the function (or) statements
+  return()
+  }
+~~~
+{: .language-r}
+
+Calling the function:
+~~~
+function_name()
+~~~
+{: language.r}
 
 {% include links.md %}
 
