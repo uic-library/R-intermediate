@@ -21,12 +21,14 @@ Additionally, in a second paragraph, please mention the data set or materials th
 <br>
 > ## Pre-requisites
 > __STOP:__ before starting this workshop, please attend the following Digital Scholarship Lab workshop(s) before completing this one:
-> * [Workshop Title Here](https://researchguides.uic.edu/hub/workshops)  
+> * [Intro to R](https://researchguides.uic.edu/hub/workshops)  
 >   
 > __OR__ make sure you're comfortable with the following concepts (study suggestions in parentheses)  
 > 
-> * first pre-requisite ([resource 1]())
-> * second pre-requisite ([resource 2]())
+> * Basics of R ([resource 1]())
+> * Data Types in R ([resource 2]())
+> * Data Structures in R
+> * Subsetting data in R
 > 
 {: .prereq}
 
