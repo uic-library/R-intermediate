@@ -49,7 +49,7 @@ Additionally, in a second paragraph, please mention the data set or materials th
 
 {% include box_player.html id=page.boxId %}
 
-{% endcomment}
+{% endcomment %}
 
 ## Survey
 
