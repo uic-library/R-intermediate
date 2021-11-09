@@ -79,5 +79,10 @@ mean of x mean of y
 ~~~
 {: .output}
 
+See the p-value on line 3 of your output:
+> t = -3.7671, df = 18.332, p-value = 0.001374
+
+Since the p-value is greater than 0.05 we can accept the null hypothesis that there is no difference in the horsepower of a car based on its transmission type.
+
 {% include links.md %}
 
