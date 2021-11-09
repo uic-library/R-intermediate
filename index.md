@@ -38,10 +38,10 @@ Additionally, in a second paragraph, please mention the data set or materials th
 | Section    | Overview | Time Estimate |
 | ------- | ---------- |
 |[Setup](https://uic-library.github.io/workshop-template/00-setup/index.html)    | download and setup required software. Download data files/other required set up files|0:20 min|
-|[Introduction](https://uic-library.github.io/workshop-template/01-introduction/index.html)|Introduction to Workshop and R Review| | 
-|[Functions](https://uic-library.github.io/workshop-template/03-functions/index.html)|Learn how to use built-in functions and create your own | | 
-|[Visualization](https://uic-library.github.io/workshop-template/04-visualization/index.html)|Learn how to make basic plots in R| | 
-|[Hypothesis Testing](https://uic-library.github.io/workshop-template/05-testing/index.html)|Learn how to use statistical tests for hypothesis testing in R| | 
+|[Introduction](https://uic-library.github.io/R-intermediate/01-introduction/index.html)|Introduction to Workshop and R Review| | 
+|[Functions](https://uic-library.github.io/R-intermediate/02-functions/index.html)|Learn how to use built-in functions and create your own | | 
+|[Visualization](https://uic-library.github.io/R-intermediate/03-visualization/index.html)|Learn how to make basic plots in R| | 
+|[Hypothesis Testing](https://uic-library.github.io/R-intermediate/04-testing/index.html)|Learn how to use statistical tests for hypothesis testing in R| | 
 
 {% comment %}
 
