@@ -26,7 +26,7 @@ here are a few things you need to do:
   Once you've chosen a new title, you can set the value for `lesson_title`
   in [`_config.yml`](_config.yml) \*Note: you do not need to edit anything
   else in this file for the time being. 
-* [ ] Add the URL to your built lesson pages to the repository description\*
+* [ ] Add the URL to your built lesson pages to the repository description      
       * Your new website will be rendered at `https://uic-library.github.io/<workshop-repo-name>`. *To set the URL on GitHub, click the gear wheel button next to About on the right of the repository landing page. You will have to manually enter the url even though a repository at https://github.com/uic-library/workshop-repo-name/ will render automatically at the URL https://uic-library.github.io/<workshop-repo-name>.
 * [ ] make copies to match the number of parts your workshop will have by creating
   copies of `\_episodes/01-introduction.md`. Files should be named according to 
