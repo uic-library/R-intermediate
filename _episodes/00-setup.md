@@ -22,6 +22,7 @@ FIXME add/edit  install instructions (automated, see comment)
 folder \_includes/install_instructions by using code seen below. Add or remove install instructions as needed. {% endcomment %}
 
 {% include install_instructions/editor.html %}
+{% include install_instructions/r.html %}
 {% include install_instructions/videoconferencing.html %}
 
 ## Setup files:
@@ -29,7 +30,7 @@ folder \_includes/install_instructions by using code seen below. Add or remove i
 Please download the following files to particpate in the workshop:
 
 FIXME data:    
-FIXME script: 
+script: [R-INTERMEDIATE script](../files/R-INTERMEDIATE.R)
 
 FIXME add links to setup files in `files` folder OR if there are many files, zip setup files, add to `files` folder
 and add link to zip file here
