@@ -36,7 +36,7 @@ folder \_includes/install_instructions by using code seen below. Add or remove i
 Please download the following files to particpate in the workshop:
 
 FIXME data: 
-FIXME script: 
+[R-Intermediate.R](../files/R-INTERMEDIATE.R)
 
 FIXME add links to setup files in `files` folder OR if there are many files, zip setup files, add to `files` folder
 and add link to zip file here
