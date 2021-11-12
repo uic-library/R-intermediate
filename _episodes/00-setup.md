@@ -1,13 +1,6 @@
 ---
 title: "Setup"
-teaching: 0
-exercises: 10
-questions:
-- "How do I setup the software for this workshop?"
-- "What are the workshop materials for this workshop?"
-- "What data are we using for this workshop?"
-- "What is the pre-requisite knowledge I need and where do I get it?"
-- "What other information do I need to know before I begin?"
+time: 20 min
 objectives:
 - "Install necessary software for this workshop"
 - "Download data and other setup files for this workshop"
