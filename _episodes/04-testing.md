@@ -199,5 +199,18 @@ TukeyHSD(mileage.aov)
 ~~~
 {: .language-r}
 
+## CORRELATION TEST  
+
+The correlation test is used to run a hypothesis testing on two different numerical attributes.  
+
+Syntax:
+~~~
+cor.test(Numerical_Attribute_1, Numerical_Attribute_2)
+~~~
+{: .source}
+
+this is an edit 
+
+
 {% include links.md %}
 
