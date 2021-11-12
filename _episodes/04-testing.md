@@ -51,9 +51,9 @@ The t-test is used to run a hypothesis testing on one (or) two levels of same fa
 
 Syntax:
 ~~~
-t.test(Factor 1,            Values of the first factor
-       Factor 2,            Values of the second factor
-       alternative = )      Check if factor 1 mean is smaller or greater than factor 2 (optional)
+t.test(Factor 1,            # Values of the first factor
+       Factor 2,            # Values of the second factor
+       alternative = )      # Check if factor 1 mean is smaller or greater than factor 2 (optional)
 ~~~
 {: .source}
 
@@ -94,7 +94,7 @@ We can then use the __alternative__ parameter to determine if the first factor u
 # Is the mileage of the automatic transmission less than the mileage of manual transmission?
 t.test(Auto_mileage, Manual_mileage, alternative = "less")
 ~~~
-{: .r-language}
+{: .language-r}
 
 ~~~
 	Welch Two Sample t-test
@@ -114,7 +114,7 @@ mean of x mean of y
 # Or, is the mileage of the automatic transmission greater than the mileage of manual transmission?
 t.test(Auto_mileage, Manual_mileage, alternative = "greater")
 ~~~
-{: .r-language}
+{: .language-r}
 
 ~~~
 	Welch Two Sample t-test
@@ -148,7 +148,7 @@ Auto_hp <- mtcars[mtcars$am == "Automatic","hp"]
 Manual_hp <- mtcars[mtcars$am == "Manual","hp"]
 t.test(Auto_hp, Manual_hp)
 ~~~
-{: .r-language}
+{: .language-r}
 
 ~~~
 	Welch Two Sample t-test
