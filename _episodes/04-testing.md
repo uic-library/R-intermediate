@@ -36,11 +36,12 @@ The p-value of a test provides the probability of gaining results in the extreme
 
 We chose a significance value to determine when to reject the null hypothesis. Conventionally, 0.05 is chosen as the significance level such that if p-value is less the 0.05 then wereject the null hypothesis and accept the alternate hypothesis.
 
-[FIXME make into tip blockquote]
-You can refer to the below links to learn more in detail:
-
-- Confidence Interval –MathisFun, YouTube [FIXME add in links]
-- P-value –StatsDirect, YouTube, YouTube2, Towards_Data_Science
+> ## More on Confidence Intervals
+> You can refer to the below links to learn more in detail:
+> 
+> - Confidence Interval –MathisFun, YouTube [FIXME add in links]
+> - P-value –StatsDirect, YouTube, YouTube2, Towards_Data_Science
+{: .callout}
 
 [FIXME add image "true value under null hypothesis"]
 
