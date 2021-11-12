@@ -166,7 +166,37 @@ mean of x mean of y
 
 Since the p-value is greater than 0.05 we can accept the null hypothesis that there is no difference in the horsepower of a car based on its transmission type.
 
-FIXME - finish with ANOVA section
+## ANOVA 
+
+The ANOVA test is performed to run hypothesis testing on a factor with more than two levels. In our mtcarsdataset the “cylinder” attribute has three levels while “carburetors” attribute hassix levels.
+
+Syntax: 
+
+~~~
+aov(Numerical_column_name~ Categorical_column_name, data =dataframe_name)TukeyHSD(ANOVA_output)
+~~~
+{: .source}
+
+The initial anova test only provides a result stating if there is an overalldifference.To checkfor differencebetweeneach individuallevel in the factor we use the TukeyHSDfunction.
+
+~~~
+# Test performed to see if mileage varies based on number of cylinders 
+mileage.aov <- aov(mpg~cyl, data=mtcars)
+~~~
+{: .language-r} 
+
+~~~
+# The below summary provides a single result indicating if mileage
+# varies or not
+summary(mileage.aov)
+~~~
+{: .language-r}
+~~~
+# The TukeyHSD function provides results to indicate if mileage varies
+# between each type of cylinder 
+TukeyHSD(mileage.aov)
+~~~
+{: .language-r}
 
 {% include links.md %}
 
