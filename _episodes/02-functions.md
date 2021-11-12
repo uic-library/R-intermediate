@@ -46,7 +46,7 @@ Calling the function:
 ~~~
 function_name()
 ~~~
-{: language.r}
+{: .language-r}
 
 {% include links.md %}
 
