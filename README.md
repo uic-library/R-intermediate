@@ -122,8 +122,8 @@ FIXME
 ## State of Workshop:
 Still in development? Any major fixes to do?
 
-## Creator(s)
-FIXME (original creator)
+## Contributors
+FIXME 
 FIXME
 FIXME
 
