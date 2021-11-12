@@ -28,7 +28,7 @@ Null Hypothesis–type of transmission•Alternate Hypothesis–There is a stati
 
 The confidence interval determines the range of values which the true mean lies. For example, if data is collected regarding the height of men then, a 95% confidence interval provides the range of height within which the true mean of all men’s height lie.
 
-[Fixme add image  normal curve pg 14]
+![Confidence Interval](../fig/04-confidence-interval.jpg)
 
 ## P-Value
 
