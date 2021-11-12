@@ -12,7 +12,7 @@
 
 4. Please *do your work in the repository's `gh-pages` branch*, since that is what is automatically published as a website by GitHub.
 
-5.  Please make the repository public internally to UIC Library, leave "Include all branches" unchecked, and click on "Create repository from template". You will be redirected to your new copy of the workshop template respository.
+5.  You may initially make the repository private, leave "Include all branches" unchecked, and click on "Create repository from template". You will be redirected to your new copy of the workshop template respository.
 
 6. Read through the [Carpentries Lesson Example](https://carpentries.github.io/lesson-example/) to get an idea of how GitHub Pages works, Markdown styling and GitHub, and basics of how our template works (\*Note, some of the information is NOT relevant to our template setup. Specifically, DO NOT run the `bin/lesson_initialize.py` file as instructed in several places. This has been replaced by GitHub's "Use this template" feature.)
     - The GitHub, Markdown, and Jekyll, Lesson Organization, Formatting, Style Guide sections will be the most useful.
@@ -27,7 +27,7 @@ here are a few things you need to do:
   in [`_config.yml`](_config.yml) \*Note: you do not need to edit anything
   else in this file for the time being. 
 * [ ] Add the URL to your built lesson pages to the repository description\*
-* [ ] [Add relevant topic tags to your lesson repository][cdh-topic-tags].
+      * Your new website will be rendered at `https://uic-library.github.io/<workshop-repo-name>`. *To set the URL on GitHub, click the gear wheel button next to About on the right of the repository landing page. You will have to manually enter the url even though a repository at https://github.com/uic-library/workshop-repo-name/ will render automatically at the URL https://uic-library.github.io/<workshop-repo-name>.
 * [ ] make copies to match the number of parts your workshop will have by creating
   copies of `\_episodes/01-introduction.md`. Files should be named according to 
   convention: `0X-short-title.md`.
@@ -45,7 +45,7 @@ here are a few things you need to do:
 ![Copy ID from Box Share Link for Recordings](fig/sharelink-boxId.PNG)
   * Alternatively, if there is no recording ready to post, comment out the recording section with `{% comment %}` and `{% endcomment %}` until there is a recording to add.
 
-\*Your new website will be rendered at `https://uic-library.github.io/<workshop-repo-name>`. *To set the URL on GitHub, click the gear wheel button next to About on the right of the repository landing page. You will have to manually enter the url even though a repository at https://github.com/uic-library/workshop-repo-name/ will render automatically at the URL https://uic-library.github.io/<workshop-repo-name>.
+
 
 ## Optional but Recommended Steps
 * [ ] Update this README with relevant information about your workshop (see example below)
